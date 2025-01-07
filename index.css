@@ -41,6 +41,8 @@ body {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 40px;
+  color: #00d9ff;
+  text-shadow: 0 0 12px #f507d5;
 }
 .number b {
   transform: rotate(calc(-30deg * var(--n)));
@@ -69,16 +71,25 @@ body {
 .hour-hand {
   height: 120px;
   width: 13px;
-  background-color: gold;
+  background:linear-gradient(#00d9ff , #ee00ff);
 }
 .minute-hand {
   height: 180px;
-  width: 13px;
-  background-color: blue;
+  width: 10px;
+  background-color: #0af234;
 }
 
 .seconds-hand {
   height: 210px;
   width: 3px;
-  background-color: yellow;
+  background-color: red;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  color: #16f50a;
+  margin-bottom: 300px;
 }
